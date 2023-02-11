@@ -6,8 +6,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <link rel="icon" href="assets/favicon-32x32.png">
         <title>Single-page-design-portfolio</title>
-        <link rel="stylesheet" href="style/style.css">
-        <link rel="stylesheet" href="style/reset.css">
+        <link rel="stylesheet" href="./style/reset.css">
+        <link rel="stylesheet" href="./style/style.css">
+        <link rel="stylesheet" href="./style/responsive.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap">
     </head>
     <body>
@@ -16,23 +17,26 @@
             <button class="header-button">Free Consultation</button>
         </header>
         <main>
-            <section class="text-contaimer">
+            <section class="text-container">
                 <h1>Design solutions made easy</h1>
                 <h3>With over ten years of experience in various design disciplines, I am your one-stop shop for your design needs.</h3>
             </section>
-            <section class="grid-conainer">
-                <div id="Graphic Design">Graphic Design</div>
-                <div id="UI/UX">UI/UX</div>
+            <section class="grid-container">
+                <div id="Graphic-Design">Graphic Design</div>
+                <div id="Ui-ux">UI/UX</div>
                 <div id="Apps">Apps</div>
                 <div id="Illustrations">Illustrations</div>
                 <div id="Photography">Photography</div>
-                <div id="Motion_Graphics">Motion Graphics</div>
+                <div id="Motion_graphics">Motion-graphics</div>
             </section>
-            <section class="avater">
-                <img src="assets/image-amy.webp" alt="avater">
-                <h2>I’m Amy, and I’d love to work on your next project</h2>
-                <p>I love working with others to create beautiful design solutions. I’ve designed everything from brand illustrations to complete mobile apps. I’m also handy with a camera!</p>
-                <button>Free Consultation</button>
+            <section class="avatar">
+                <div class="img-box">
+                </div>
+                <div class="text-box">
+                    <h2>I'm Amy, and I'd love to work on your next project</h2>
+                    <p>I love working with others to create beautiful design solutions. I've designed everything from brand illustrations to complete mobile apps. I’m also handy with a camera!</p>
+                    <button>Free Consultation</button>
+                </div>
             </section>
             <section class="slider-container">
                 <h2>My Work</h2>
@@ -44,13 +48,15 @@
                     <img src="assets/image-slide-5.jpg" alt="image-slide-5">
                 </div>
                 <div class="arrows">
-                    <img id="left" src="assets/icon-arrow-left.svg" alt="arrow-left">
-                    <img id="right" src="assets/icon-arrow-right.svg" alt="arrow-right">
+                    <div id="left"></div>
+                    <div id="right"></div>
                 </div>
             </section>
             <section class="booking">
-                <h2>Book a call with me</h2>
-                <p>I’d love to have a chat to see how I can help you. The best first step is for us to discuss your project during a free consultation. Then we can move forward from there.</p>
+                <div>
+                  <h2>Book a call with me</h2>
+                  <p>I'd love to have a chat to see how I can help you. The best first step is for us to discuss your project during a free consultation. Then we can move forward from there.</p>
+                </div>
                 <button id="booking-button">Free Consultation</button>
             </section>
         </main>
@@ -58,6 +64,6 @@
             <img src="assets/logo.svg" alt="logo">
             <button class="footer-button">Free Consultation</button>
         </footer>
-        
+        <script src="./script.js"></script>
     </body>
 </html>

@@ -21,6 +21,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	margin: 0;
 }
 ol, ul {
 	list-style: none;
@@ -40,6 +41,8 @@ table {
 * {
     box-sizing: border-box;
 	border-style: none;
+	margin: 0;
+	padding: 0;
 }
 a {
     color: inherit;
