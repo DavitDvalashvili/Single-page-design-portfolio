@@ -15,6 +15,7 @@ leftArrow.addEventListener("click",  () => {
     if (counter == 2) {
         return 
     } else {
+        slider.style.transition = 'transform 0.4s ease-in-out';
         counter ++;
         slider.style.transform = `translateX(${-size*counter-gap*counter}px)`;
     }
@@ -24,6 +25,7 @@ rightArrow.addEventListener("click",  () => {
     if (counter == -2) {
         return 
     } else {
+        slider.style.transition = 'transform 0.4s ease-in-out';
         counter --;
         slider.style.transform = `translateX(${-size*counter-gap*counter}px)`;
     }

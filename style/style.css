@@ -57,7 +57,8 @@ button {
   line-height: 2.8rem;
   color: var(--cream);
 }
-.header-button:hover, .footer-button:hover {
+.header-button:hover, .footer-button:hover,
+#left:hover, #right:hover  {
   cursor: pointer;
   background-color: var(--blue);
   transition: all 0.5s ease-out;
