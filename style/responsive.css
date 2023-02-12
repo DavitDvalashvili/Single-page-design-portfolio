@@ -217,32 +217,32 @@
     }
     #Graphic-Design {
         grid-area: 1/1/span 2/span 1;
-        width: 354px;
-        height: 364px;
+        width: 35.4rem;
+        height: 36.4rem;
     }
     #Ui-ux {
         grid-area: 1/2/span 1/span 1;
-        width: 164px;
-        height: 182px;
+        width: 16.4rem;
+        height: 18.2rem;
     }
     #Apps {
         grid-area: 1/3/span 1/span 1;
-        width: 164px;
-        height: 182px;
+        width: 16.4rem;
+        height: 18.2rem;
     }
     #Illustrations {
         grid-area: 2/2/span 1/span 2;
-        width: 354px;
-        height: 158px;
+        width: 35.4rem;
+        height: 15.8rem;
     }
     #Photography {
         grid-area: 1/4/span 1/span 1;
-        width: 354px;
-        height: 182px;
+        width: 35.4rem;
+        height: 18.2rem;
     }
     #Motion_graphics {
         grid-area: 2/4/span 1/span 1;
-        width: 354px;
+        width: 35.4rem;
         height: 15.8rem;
     }
         /* booking */
