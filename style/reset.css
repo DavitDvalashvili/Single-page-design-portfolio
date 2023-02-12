@@ -48,3 +48,6 @@ a {
     color: inherit;
     text-decoration: inherit;
 }
+*::-webkit-scrollbar {
+    display: none;
+}
