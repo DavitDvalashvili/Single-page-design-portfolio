@@ -1,23 +1,20 @@
 const slider = document.getElementsByClassName("slider")[0];
-const sliderImg = document.querySelectorAll(".slider img");
+const imageBox = document.querySelectorAll(".slider div");
 // buttons
 const leftArrow = document.getElementById("left");
 const rightArrow = document.getElementById("right");
 
 let counter = 0;
-let size = sliderImg[0].clientWidth;
-let gap = parseInt(getComputedStyle(slider).gap);
+let size = imageBox[0].clientWidth;
 
-
-// slider.style.transform = `translateX(${-size*counter}px)`;
 
 leftArrow.addEventListener("click",  () => {
     if (counter == 2) {
         return 
     } else {
-        slider.style.transition = 'transform 0.4s ease-in-out';
         counter ++;
-        slider.style.transform = `translateX(${-size*counter-gap*counter}px)`;
+        slider.style.transition = 'transform 0.4s ease-in-out';
+        slider.style.transform = `translateX(${-size*counter}px)`;
     }
 })
 
@@ -25,8 +22,8 @@ rightArrow.addEventListener("click",  () => {
     if (counter == -2) {
         return 
     } else {
-        slider.style.transition = 'transform 0.4s ease-in-out';
         counter --;
-        slider.style.transform = `translateX(${-size*counter-gap*counter}px)`;
+        slider.style.transition = 'transform 0.4s ease-in-out';
+        slider.style.transform = `translateX(${-size*counter}px)`;
     }
 })
